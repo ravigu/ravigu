@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+        <title>Ravi's Portfolio</title>
+<script src="https://kit.fontawesome.com/86ae358c14.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <img class="img" src="personal-portfolio-img/images/Ravi.png">
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="personal-portfolio-img/images/logo (2).png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>    
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Web Developer</p>
+                <h1>I'm Ravi <span>Gupta</span> <br>From India.</h1>
+            </div>
+        </div>
+    </div>
+<!-- ---------------------------About--------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img class="personal" src="personal-portfolio-img/images/Ravi.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle" >About Me</h1>
+                    <p>"I'm a passionate individual with a love for creativity and problem-solving. I enjoy exploring different cultures through travel and have a deep appreciation for art and music. With a background in technology, I'm constantly seeking new ways to innovate and make a positive impact. I believe in lifelong learning and embrace challenges as opportunities for growth. Overall, I strive to live a balanced and fulfilling life while making meaningful connections with others."</p>
+                    <div class="tab-titels">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('eduction')">Eduction</p>
+                    </div>  
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Andriod/IOS App</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Software Engineer at Samyak Infotech Pvt. ltd.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="eduction">
+                        <ul>
+                            <li><span>2023</span><br>B.Tech From SIRT Bhopal</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------- Services------------------------ -->
+
+    <div id="service">
+        <div class="container">
+            <h1 class="sub-tittle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p> Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website in a way that is functional and offers a good user experience.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UX design focuses on creating a seamless and meaningful user experience by understanding user needs, conducting research, and designing intuitive interfaces, while UI design focuses on the visual, interactive elements of a product to create aesthetically-pleasing interfaces.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p> App design is an ongoing process comprising user experience (UX) and user interface (UI) elements. Designers ideate, define solutions, create the app's flow and structure, and make stylistic choices from colors to fonts.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------------------Portfolio------------ -->
+
+    <div id="portfolio">
+        <div class="container">
+            <div class="sub-tittle">
+            <h1>My Work</h1>
+            </div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="personal-portfolio-img/images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connect you to the talented people around the world.
+                           Download it from play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="personal-portfolio-img/images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>A music app is a software application that allows you to listen to, organize, and discover music on your smartphone, tablet, or computer.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="personal-portfolio-img/images/work-3.png">
+                    <div class="layer">
+                        <h3>Online shopping App</h3>
+                        <p>An online shopping app is a mobile application that allows users to browse, search for, and purchase products or services directly from their smartphones or tablets.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- -----------------------------contact------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>ravi.jeetendra@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9102477943</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100012656340783"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/ravi_gupta_43/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ravi-gupta-480a2a229/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="personal-portfolio-img/images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="tex" name="Name" placeholder="Enter Your Name" required>
+                        <input type="email" name="Email" placeholder="Enter Your Email" required>
+                        <textarea name="Message" id="" placeholder="Your Message" rows="6"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Ravi. Made With <i class="fa-solid fa-heart"></i> By Ravi </p>
+        </div>
+    </div>
+    
+<script src="script.js"></script>
+</body>
+</html>
